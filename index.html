@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Multi Livestream YouTube</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🔴 Multi Livestream</h1>
+  <p>Pilih channel live favoritmu</p>
+</header>
+
+<main>
+  <div class="player">
+    <iframe
+      id="ytplayer"
+      src="https://www.youtube.com/embed/VIDEO_ID_1?mute=1"
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="channel-list">
+    <button onclick="playLive('VIDEO_ID_1')">Channel 1</button>
+    <button onclick="playLive('VIDEO_ID_2')">Channel 2</button>
+    <button onclick="playLive('VIDEO_ID_3')">Channel 3</button>
+    <button onclick="playLive('VIDEO_ID_4')">Channel 4</button>
+  </div>
+</main>
+
+<footer>
+  <p>Streaming resmi YouTube • GitHub Pages</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
